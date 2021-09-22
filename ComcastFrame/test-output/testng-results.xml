@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-21T11:29:12Z" name="Default suite" finished-at="2021-09-21T11:29:12Z" duration-ms="84">
+  <suite started-at="2021-09-22T12:43:07Z" name="Suite" finished-at="2021-09-22T12:43:07Z" duration-ms="83">
     <groups>
+      <group name="smoketest">
+        <method signature="OrgTest.createcontactTest()[pri:0, instance:com.comcast.contact.OrgTest@f99f5e0]" name="createcontactTest" class="com.comcast.contact.OrgTest"/>
+        <method signature="OrgTest.createcontactwithTest()[pri:0, instance:com.comcast.contact.OrgTest@f99f5e0]" name="createcontactwithTest" class="com.comcast.contact.OrgTest"/>
+      </group> <!-- smoketest -->
     </groups>
-    <test started-at="2021-09-21T11:29:12Z" name="Default test" finished-at="2021-09-21T11:29:12Z" duration-ms="84">
-      <class name="com.comcast.contact.Contacttest">
-        <test-method signature="createcontactTest()[pri:0, instance:com.comcast.contact.Contacttest@2609b277]" started-at="2021-09-21T11:29:12Z" name="createcontactTest" finished-at="2021-09-21T11:29:12Z" duration-ms="34" status="PASS">
+    <test started-at="2021-09-22T12:43:07Z" name="Test" finished-at="2021-09-22T12:43:07Z" duration-ms="83">
+      <class name="com.comcast.contact.OrgTest">
+        <test-method signature="createcontactTest()[pri:0, instance:com.comcast.contact.OrgTest@f99f5e0]" started-at="2021-09-22T12:43:07Z" name="createcontactTest" finished-at="2021-09-22T12:43:07Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcontactTest -->
-        <test-method signature="createcontactwithTest()[pri:0, instance:com.comcast.contact.Contacttest@2609b277]" started-at="2021-09-21T11:29:12Z" name="createcontactwithTest" finished-at="2021-09-21T11:29:12Z" duration-ms="3" status="PASS">
+        <test-method signature="createcontactwithTest()[pri:0, instance:com.comcast.contact.OrgTest@f99f5e0]" started-at="2021-09-22T12:43:07Z" name="createcontactwithTest" finished-at="2021-09-22T12:43:07Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcontactwithTest -->
-        <test-method signature="deletecreatecontactTest()[pri:0, instance:com.comcast.contact.Contacttest@2609b277]" started-at="2021-09-21T11:29:12Z" name="deletecreatecontactTest" finished-at="2021-09-21T11:29:12Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletecreatecontactTest -->
-      </class> <!-- com.comcast.contact.Contacttest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.comcast.contact.OrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
