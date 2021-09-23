@@ -10,6 +10,12 @@ public class Contacttest {
 	}
 	
 	@Test
+	
+	public void orgcontactTest() {
+		System.out.println("execute orgContactTest");
+	}
+	
+	@Test
 	public void createcontactwithTest() {
 		System.out.println("execute createContactwithTest");
 	}
